@@ -1,201 +1,176 @@
-let count = 0
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
+let saveEle1 = document.getElementById("save-ele1")
+let fetchEle1=document.getElementById("fetch-btnn1")
+let inputt1=document.getElementById("inpu1")
 
-function increment() {
-    count += 1
-    countEl.textContent = count
+
+function saved1() {
+    saveEle1.textContent = inputt1.value
+    localStorage.setItem("1",JSON.stringify(saveEle1.textContent))
 }
 
-function save() {
-    let countStr = count + " - "
-    saveEl.textContent += countStr
-    count = 0
-    countEl.textContent = count
-    
-}
-
-function decrement() {
-    count -= 1
-    countEl.textContent = count
+function fetch1(){
+    fetchEle1.addEventListener("click",function(){
+        saveEle1.textContent=localStorage.getItem("1")
+    })
 }
 
 
-let saveEle = document.getElementById("save-ele")
-let countEle = document.getElementById("count-ele")
+let saveEle2 = document.getElementById("save-ele2")
+let fetchEle2=document.getElementById("fetch-btnn2")
+let inputt2=document.getElementById("inpu2")
 
-function incremente() {
-    count += 1
-    countEle.textContent = count
-}
-function saved() {
-    let countStr = count + " - "
-    saveEle.textContent += countStr
-    count = 0
-    countEle.textContent = count
-}
-function decremented() {
-    count -= 1
-    countEle.textContent = count
+
+function saved2() {
+    saveEle2.textContent = inputt2.value
+    localStorage.setItem("2",JSON.stringify(saveEle2.textContent))
 }
 
+function fetche2(){
+    fetchEle2.addEventListener("click",function(){
+        saveEle2.textContent=localStorage.getItem("2")
+    })
+}
+
+
+
+let saveEle5 = document.getElementById("save-ele5")
+let countEle5 = document.getElementById("count-ele5")
+let fetchEle5=document.getElementById("fetch-btnn5")
+let inputt5=document.getElementById("inpu5")
+
+
+function saved5() {
+    saveEle5.textContent = inputt.value
+    localStorage.setItem("3",JSON.stringify(saveEle5.textContent))
+}
+
+function fetche5(){
+    fetchEle5.addEventListener("click",function(){
+        saveEle5.textContent=localStorage.getItem("3")
+    })
+}
 
 
 let saveEle3 = document.getElementById("save-ele3")
 let countEle3 = document.getElementById("count-ele3")
+let fetchEle3=document.getElementById("fetch-btnn3")
+let inputt3=document.getElementById("inpu3")
 
-function incremente3() {
-    count += 1
-    countEle3.textContent = count
-}
+
 function saved3() {
-    let countStr = count + " - "
-    saveEle3.textContent += countStr
-    count = 0
-    countEle3.textContent = count
+    saveEle3.textContent = inputt3.value
+    localStorage.setItem("4",JSON.stringify(saveEle3.textContent))
 }
 
-function decremente3() {
-    count -= 1
-    countEle3.textContent = count
+function fetche3(){
+    fetchEle3.addEventListener("click",function(){
+        saveEle3.textContent=localStorage.getItem("4")
+    })
 }
 
 
 let saveEle4 = document.getElementById("save-ele4")
 let countEle4 = document.getElementById("count-ele4")
+let fetchEle4=document.getElementById("fetch-btnn4")
+let inputt4=document.getElementById("inpu4")
 
-function incremente4() {
-    count += 1
-    countEle4.textContent = count
-}
+
 function saved4() {
-    let countStr = count + " - "
-    saveEle4.textContent += countStr
-    count = 0
-    countEle4.textContent = count
+    saveEle4.textContent = inputt4.value
+    localStorage.setItem("5",JSON.stringify(saveEle4.textContent))
 }
 
-function decremente4() {
-    count -= 1
-    countEle4.textContent = count
-}
-
-
-let saveEle5 = document.getElementById("save-ele5")
-let countEle5 = document.getElementById("count-ele5")
-
-function incremente5() {
-    count += 1
-    countEle5.textContent = count
-}
-function saved5() {
-    let countStr = count + " - "
-    saveEle5.textContent += countStr
-    count = 0
-    countEle5.textContent = count
-}
-
-function decremente5() {
-    count -= 1
-    countEle5.textContent = count
+function fetche4(){
+    fetchEle4.addEventListener("click",function(){
+        saveEle4.textContent=localStorage.getItem("5")
+    })
 }
 
 
 let saveEle6 = document.getElementById("save-ele6")
 let countEle6 = document.getElementById("count-ele6")
+let fetchEle6=document.getElementById("fetch-btnn6")
+let inputt6=document.getElementById("inpu6")
 
-function incremente6() {
-    count += 1
-    countEle6.textContent = count
-}
 
 function saved6() {
-    let countStr = count + " - "
-    saveEle6.textContent += countStr
-    count = 0
-    countEle6.textContent = count
+    saveEle6.textContent = inputt6.value
+    localStorage.setItem("6",JSON.stringify(saveEle6.textContent))
 }
 
-function decremente6() {
-    count -= 1
-    countEle6.textContent = count
+function fetche6(){
+    fetchEle6.addEventListener("click",function(){
+        saveEle6.textContent=localStorage.getItem("6")
+    })
 }
+
 
 let saveEle7 = document.getElementById("save-ele7")
 let countEle7 = document.getElementById("count-ele7")
+let fetchEle7=document.getElementById("fetch-btnn7")
+let inputt7=document.getElementById("inpu7")
 
-function incremente7() {
-    count += 1
-    countEle7.textContent = count
-}
+
 function saved7() {
-    let countStr = count + " - "
-    saveEle7.textContent += countStr
-    count = 0
-    countEle7.textContent = count
+    saveEle7.textContent = inputt7.value
+    localStorage.setItem("7",JSON.stringify(saveEle7.textContent))
 }
 
-function decremente7() {
-    count -= 1
-    countEle7.textContent = count
+function fetche7(){
+    fetchEle7.addEventListener("click",function(){
+        saveEle7.textContent=localStorage.getItem("7")
+    })
 }
-
 
 let saveEle8 = document.getElementById("save-ele8")
 let countEle8 = document.getElementById("count-ele8")
+let fetchEle8=document.getElementById("fetch-btnn8")
+let inputt8=document.getElementById("inpu8")
 
-function incremente8() {
-    count += 1
-    countEle8.textContent = count
-}
+
 function saved8() {
-    let countStr = count + " - "
-    saveEle8.textContent += countStr
-    count = 0
-    countEle8.textContent = count
+    saveEle8.textContent = inputt8.value
+    localStorage.setItem("8",JSON.stringify(saveEle8.textContent))
 }
 
-function decremente8() {
-    count -= 1
-    countEle8.textContent = count
+function fetche8(){
+    fetchEle8.addEventListener("click",function(){
+        saveEle8.textContent=localStorage.getItem("8")
+    })
 }
 
 
 let saveEle9 = document.getElementById("save-ele9")
 let countEle9 = document.getElementById("count-ele9")
+let fetchEle9=document.getElementById("fetch-btnn9")
+let inputt9=document.getElementById("inpu9")
 
-function incremente9() {
-    count += 1
-    countEle9.textContent = count
-}
+
 function saved9() {
-    let countStr = count + " - "
-    saveEle9.textContent += countStr
-    count = 0
-    countEle9.textContent = count
+    saveEle9.textContent = inputt9.value
+    localStorage.setItem("9",JSON.stringify(saveEle9.textContent))
 }
 
-function decremente9() {
-    count -= 1
-    countEle9.textContent = count
+function fetche9(){
+    fetchEle9.addEventListener("click",function(){
+        saveEle9.textContent=localStorage.getItem("9")
+    })
 }
 
 
 let saveEle10 = document.getElementById("save-ele10")
 let countEle10 = document.getElementById("count-ele10")
+let fetchEle10=document.getElementById("fetch-btnn10")
+let inputt10=document.getElementById("inpu10")
 
-function incremente10() {
-    count += 1
-    countEle10.textContent = count
-}
+
 function saved10() {
-    let countStr = count + " - "
-    saveEle10.textContent += countStr
-    count = 0
-    countEle10.textContent = count
+    saveEle10.textContent = inputt10.value
+    localStorage.setItem("10",JSON.stringify(saveEle10.textContent))
 }
 
-function decremente10() {
-    count -= 1
-    countEle10.textContent = count
+function fetche10(){
+    fetchEle10.addEventListener("click",function(){
+        saveEle10.textContent=localStorage.getItem("10")
+    })
 }

@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "Leaves Counter",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "753603e0a74bf078fb89736ae5b75fb0.gif"
+    }
+}
